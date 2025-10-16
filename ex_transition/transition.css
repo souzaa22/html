@@ -1,0 +1,108 @@
+*{
+margin: 20px;
+}
+.transition{
+    background-color: red;
+    transition: background-color 1s ease;
+}
+.transition:hover {
+background-color: blue;
+}
+.aumentar{
+    width: 200px;
+    height: 20px;
+    transition: 2s ease;
+}
+.aumentar:hover{
+    width: 300px;
+    height: 40px;
+}
+.delay{
+    background-color: red;
+    transition: 0.5s ease;
+}
+
+.delay:hover {
+background-color: blue;
+}
+.card{
+    text-align: center;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+     width: 200px;
+    height: 20;
+    padding: 5px;
+     transition: 3s ease;
+     background-color: blue;
+     color: white;
+}
+.card:hover {
+      width: 300px;
+    height: 50px;
+    padding: 15px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    background-color: blueviolet;
+
+}
+.parag {
+    color: rgb(0, 0, 0)(255, 255, 255);
+    transition:  1s ease;
+    font-size: 19px;
+}
+.parag:hover {
+
+padding-left: 40px;
+font-size: 24px;
+}
+
+.porshe:hover{ 
+    color:  rgb(255, 16, 16);
+padding-left: 40px;
+     transition: 0.5s ease;
+}
+.civic:hover{ 
+    color:  rgb(255, 16, 16);
+padding-left: 40px;
+     transition: 0.5s ease;
+}
+.Aston:hover{
+    color:  rgb(255, 16, 16);
+   padding-left: 40px;
+     transition: 1s ease; 
+ } 
+ img{
+    width: 200px;
+    transition:  3s ease;
+}
+img:hover{
+    width: 300px;
+}
+.menu{
+     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.home:hover{
+    color: blue;
+    text-decoration: underline;
+       transition:  1s ease;
+       font-size: 24px;
+}
+.sobre:hover{
+    color: blue;
+    text-decoration: underline;
+       transition:  1s ease;
+         font-size: 24px;
+}
+.contato:hover{
+    color: blue;
+    text-decoration: underline;
+       transition:  1s ease;
+         font-size: 24px;
+}
+.projetos:hover{
+    color: blue;
+    text-decoration: underline;
+       transition:  1s ease;
+         font-size: 24px;
+}
