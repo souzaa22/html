@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+/* --- PARTE 1: FILTROS --- */
+.filtros img {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.gray { filter: grayscale(100%); }
+.sepia { filter: sepia(100%); }
+.invert { filter: invert(100%); }
+.blur { filter: blur(4px); }
+.bright { filter: brightness(150%); }
+.contrast { filter: contrast(200%); }
+
+/* --- PARTE 2: HOVER --- */
+.hover-effect img {
+    width: 180px;
+    transition: .3s;
+}
+.hover-effect img:hover {
+    filter: brightness(130%);
+    transform: scale(1.2);
+}
+
+/* --- PARTE 3: GALERIA --- */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 70%;
+    margin: auto;
+}
+.galeria img {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%) blur(4px);
+    transition: .4s;
+}
+.galeria img:hover {
+    filter: none;
+    transform: scale(1.05);
+}
