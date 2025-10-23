@@ -1,0 +1,169 @@
+.quadrado{
+width: 100px;
+height: 100px;
+background-color: orange;
+animation-name: movimento;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes movimento {
+    0% {
+        transform: translateX(0);
+    background-color: orange;
+    }
+ 
+     100% {
+        transform: translateX(200px);
+    background-color: blue;
+    }
+
+}
+.quadrado2{
+width: 100px;
+height: 100px;
+
+
+animation-name: mudacor;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+
+@keyframes mudacor {
+    0% {
+
+    background-color: rgb(255, 0, 0);
+    }
+ 50%{
+    background-color: green;
+ }
+     100% {
+       
+    background-color: blue;
+    }
+
+}
+button.animado {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    animation: animacaoBotao 5s infinite alternate;
+}
+
+/* Animação do botão */
+@keyframes animacaoBotao {
+    0% {
+        background-color: #3498db;
+        color: white;
+        transform: scale(1);
+    }
+    50% {
+        background-color: #2ecc71;
+        color: #000;
+        transform: scale(1.5);
+    }
+    100% {
+        background-color: #e74c3c;
+        color: yellow;
+        transform: scale(1.2);
+    }
+}
+.piscando{
+    animation-name: pisca;
+
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+@keyframes pisca{
+    0%{
+        color: rgb(0, 0, 0);
+    }
+    50%{
+       color: purple;
+    }
+    100%{
+     color: brown;
+    }
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 45px;
+}
+.sol{
+    animation: nascendo 3s infinite ;
+}
+@keyframes nascendo {
+    0%{
+        transform: translateY(200px);
+    } 
+    50%{
+                transform: translateY(20px);
+
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+.montanha{
+    background-color: black;
+     width: 200px;
+    height: 200px;
+    margin-top: 30px;
+        border: 9px solid black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.coracao{
+width: 100px;
+height: 100px;
+
+
+animation-name: aumentar;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes aumentar {
+    from {
+        transform: scale(1);
+    }
+    to{
+        transform: scale(2);
+      
+    }
+}
+.flutua{
+        animation-name: flutua;
+        padding-left: 400px;
+        margin: 200px;
+        color: #000;
+            animation-direction: alternate;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+    
+    
+}
+@keyframes flutua {
+     0% {
+        transform: translateY(0);
+
+    }
+ 
+     100% {
+        transform: translateY(20px);
+ 
+    }
+
+}
