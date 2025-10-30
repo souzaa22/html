@@ -1,0 +1,10 @@
+
+.caixa1{
+    background: linear-gradient(213deg  ,red,blue);
+}
+.caixa2{
+    background: radial-gradient(ellipse at top left,orange,yellow);
+}
+.caixa3{
+    background: conic-gradient(from 90deg,red,yellow,blue,green);
+}
