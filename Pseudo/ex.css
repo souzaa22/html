@@ -1,0 +1,98 @@
+.botao1{
+background-color: red;
+color: white;
+transition: 0.5s ease-in-out;
+}
+.botao1:hover{
+    background-color: blue;
+    color: black;
+}
+
+
+.botao2{
+    background-color: blue;
+}
+.botao2:active{
+    background-color: darkblue;
+    transform: scale(0.90);
+}
+
+
+
+.botao3{
+background-color: orange;
+color: white;
+transition: 0.5s ease-in-out;
+}
+.botao3:hover{
+    background-color: brown;
+    color: black;
+}
+
+input:focus{
+    border: 2px solid blue;
+    outline: none;
+    box-shadow: 40px;
+}
+
+.card{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.card:hover{
+transform: scale(1.2);
+
+}
+.imagens{
+    height: 150px;
+    width: 200px;
+    display: flex;
+    
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 70%;
+    margin: auto;
+}
+.galeria img {
+        filter: none;
+    width: 100%;
+    height: auto;
+
+    transition: .4s;
+}
+.galeria img:hover {
+
+    transform: scale(1.05);
+        filter: grayscale(100%);
+}
+.botao6{
+    background-color: gray;
+    transition: 0.5s ease-in-out;
+}
+.botao6:hover{
+    background-color: cyan;
+}
+.botao6:active{
+    background-color: darkblue;
+    transform: scale(0.90);
+}
+.botao6:focus{
+border: 20px;
+}
+
+.nome>:focus{
+border: blue;
+}
+.nome:hover{
+    background-color: black;
+}
+
+.enviar:active{
+  
+    transform: scale(0.90);
+}
